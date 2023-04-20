@@ -24,7 +24,7 @@ In order to avoid overfitting, we compute the Mutual Information between feature
 #### Cross validation
 Since we only have ~1800 rows, there is a need to train through [cross validation](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation). To avoid overfitting, it is common practice to hold out a portion of the data as a test set and to use cross-validation. Cross-validation involves partitioning the training data into k smaller sets and training the model on k-1 sets, while using the remaining set as a validation set to compute a performance measure. The average of the performance measures is reported as the final performance measure.
 
-![](imgs/grid_search_cross_validation.png)
+![](img/grid_search_cross_validation.png)
 
 #### Scores
 
