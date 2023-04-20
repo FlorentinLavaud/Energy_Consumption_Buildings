@@ -10,7 +10,7 @@ The train [database]((data/description.txt)) shape is 1804 x 19. It gathers the 
 #### Preprocessing 
 It consists in four steps:  
 
-- Dealing with outliers :  
+- Dealing with outliers : an point is considered  to be an outlier (and henceforth is deleted) when it is in the tail (5%) of the distribution. 
 
 - Processing NaN values : we first compute the percentage of NaN per columns. When the % of missing values is below 10%, we delete rows with NaN. When the % of missing values is between 10% and 50%, we impute missing data by the median for numeric feature or the most frequent category for categorical features. If the % of missing values is greater than 50%, we delete the feature. 
 
