@@ -5,41 +5,7 @@ Prediction of the energy consumption of buildings with sklearn
 Prediction of the energy consumption of buildings with an sklearn pipeline
 
 ## Presentation of the data
-Database shape is 1804 x 19. It gathers the following variables for buildings in Boston, USA:
-
-BuildingType: 
-
-PrimaryPropertyType: 
-
-PropertyName:
-
-TaxParcelIdentificationNumber :  	
-
-CouncilDistrictCode :  	
-
-Latitude :  	
-
-Longitude :  	
-
-YearBuilt :  	
-
-NumberofBuildings :  
-
-NumberofFloors :  	
-
-PropertyGFATotal :  	
-
-PropertyGFAParking :  	
-
-PropertyGFABuilding :  	
-
-ListOfAllPropertyUseTypes :  	
-
-LargestPropertyUseType :  	
-
-ENERGYSTARScore :  	
-
-SiteEnergyUse_kBtu :  
+Database shape is 1804 x 19. It gathers the following variables for buildings in Boston, USA. A exhaustive description of the database is avaiable in data/description.txt
 
 ## Modeling process 
 #### Preprocessing :  
