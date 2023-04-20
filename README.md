@@ -29,7 +29,7 @@ Since we only have ~1800 rows from the training set, there is a need to train th
 #### Models 
 We then use various ML models from Sklearn packages, namely: DummyRegressor, LinearRegression, Ridge, KNeighborsRegressor, DecisionTreeRegressor, RandomForestRegressor, and XGBRegressor.
 
-## Metrics: 
+#### Metrics: 
 For each model, we compute the cross_val_score (5 splitting) and the score on train data. Hence one could see the overfitting by comparing both scores. We also compute the variance of cross validation, to ensure the consistency of the scores. 
 
 ## Results: 
