@@ -1,0 +1,33 @@
+BuildingType: 
+
+PrimaryPropertyType: 
+
+PropertyName:
+
+TaxParcelIdentificationNumber :  	
+
+CouncilDistrictCode :  	
+
+Latitude :  	
+
+Longitude :  	
+
+YearBuilt :  	
+
+NumberofBuildings :  
+
+NumberofFloors :  	
+
+PropertyGFATotal :  	
+
+PropertyGFAParking :  	
+
+PropertyGFABuilding :  	
+
+ListOfAllPropertyUseTypes :  	
+
+LargestPropertyUseType :  	
+
+ENERGYSTARScore :  	
+
+SiteEnergyUse_kBtu :  
