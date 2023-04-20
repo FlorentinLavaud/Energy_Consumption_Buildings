@@ -1,7 +1,7 @@
 # Energy_Consumption_Buildings
 
 ## Objective
-Prediction of the energy consumption of buildings with an sklearn pipeline
+Prediction of the energy consumption of buildings with a sklearn pipeline
 
 ## Presentation of the data
 The train [database]((data/description.txt)) shape is 1804 x 19. It gathers the following variables for buildings in Boston, USA. An exhaustive description of the database is avaiable [here](data/description.txt). The target variable is the energy used by a building, called 'SiteEnergyUse_kBtu'.
