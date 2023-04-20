@@ -2,19 +2,14 @@
 lib/preprocessing.py : Preprocessing functions for the data
 """
 import pandas as pd 
+import numpy as np
 import os 
-import matplotlib.pyplot as plt
-import seaborn as sns
+# import matplotlib as plt
+# import seaborn as sns
 import rich 
 from rich.pretty import pprint
 from tqdm import tqdm
 from pandas import DataFrame
-
-def import_selected_data(name_file, df): 
-    """
-    import data from drive and delete the unwanted data
-    """
-    return df
 
 def calculate_outlier_percentage(df, column_name):
     """
