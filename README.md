@@ -1,11 +1,10 @@
 # Energy_Consumption_Buildings
-Prediction of the energy consumption of buildings with sklearn
 
 ## Objective
 Prediction of the energy consumption of buildings with an sklearn pipeline
 
 ## Presentation of the data
-Database shape is 1804 x 19. It gathers the following variables for buildings in Boston, USA. A exhaustive description of the database is avaiable in data/description.txt
+The train [database]((data/description.txt)) shape is 1804 x 19. It gathers the following variables for buildings in Boston, USA. An exhaustive description of the database is avaiable [here](data/description.txt).
 
 ## Modeling process 
 #### Preprocessing :  
@@ -20,10 +19,11 @@ It consists in four steps:
 - Normalizing numerical features   
 
 #### Feature selection
-In order to avoid overfitting, we calculate the mutual information between our features and the variable of interest, namely Site Energy Use. We keep only the variables bringing more than 5% of information. Our database of X-train data reaches 1798 rows for 9 columns.
+In order to avoid overfitting, we compute the Mutual Information between features and the target variable. We keep only the variables bringing more than 5% of information. Our database of X_train data reaches 1798 rows for 9 columns.
   
- 
 #### Cross validation
+Since we only have ~1800 rows, there is a need to train through [cross validation](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation).
+
 #### Scores
 
 ## Results 
