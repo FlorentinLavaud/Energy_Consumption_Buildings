@@ -37,8 +37,7 @@ We find the XGBoost to be the best estimator with a average cross validation sco
 
 ## The repo :
   
-main.py  
-requirements.txt  
+script.py  
 
 Data/  
 ├── links.txt  
