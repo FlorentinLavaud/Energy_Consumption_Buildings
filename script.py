@@ -2,12 +2,10 @@ from lib.preprocessing import calculate_outlier_percentage, remove_outlier_colum
 from lib.preprocessing import fill_missing_values, str2dummy, scale_features, sklearn_preprocessing
 from lib.model import features_importance, features_selection, train_models
 
-# A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.2
-#  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-
+import pandas as pd
+from tqdm import tqdm
 pd.set_option('display.max_columns', None)
 
-import pandas as pd
 path = r'C:\Users\flore\OneDrive\Bureau\2023\Drive\_Projects'
 df_train = pd.read_excel(path + '/Building_Energy_TRAIN.xlsx')
 

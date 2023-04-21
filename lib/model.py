@@ -24,7 +24,9 @@ def features_importance(df1, df2):
   mutual_info = pd.Series(mutual_info)
   mutual_info.index = df1.columns
   value = mutual_info.sort_values(ascending=False)
-  return value, mutual_info.sort_values(ascending=False).plot.bar(figsize=(20, 8))
+  return value
+
+#mutual_info.sort_values(ascending=False).plot.bar(figsize=(20, 8))
 
 def features_selection(df1,df2,threshold):
     """
