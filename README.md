@@ -1,7 +1,7 @@
 # Energy_Consumption_Buildings
 
 ## Objective
-Prediction of the energy consumption of buildings with a sklearn pipeline
+Prediction of the energy consumption of buildings with a sklearn
 
 ## Presentation of the data
 The train [database]((data/description.txt)) shape is 1804 x 19. It gathers the following variables for buildings in Boston, USA. An exhaustive description of the database is avaiable [here](data/description.txt). The target variable is the energy used by a building, called 'SiteEnergyUse_kBtu'.
@@ -10,9 +10,9 @@ The train [database]((data/description.txt)) shape is 1804 x 19. It gathers the 
 #### Preprocessing 
 It consists in four steps:  
 
-- Dealing with outliers : an point is considered  to be an outlier (and henceforth is deleted) when it is in the tail (5%) of the distribution. 
+- Dealing with outliers : an point is considered  to be an outlier (and henceforth is deleted) when it is in the tail (5%/95%) of the distribution. 
 
-- Processing NaN values : we first compute the percentage of NaN per columns. When the % of missing values is below 10%, we delete rows with NaN. When the % of missing values is between 10% and 50%, we impute missing data by the median for numeric feature or the most frequent category for categorical features. If the % of missing values is greater than 50%, we delete the feature. 
+- Processing NaN values : we first compute the percentage of NaN per columns. When the % of missing values is below 50%, we impute missing data by the median for numeric feature or the most frequent category for categorical features. If the % of missing values is greater than 50%, we delete the feature. 
 
 - Get dummies from string variables : we use get_dummy function from pandas
 
