@@ -1,18 +1,14 @@
-BuildingType: 
-
-PrimaryPropertyType: 
-
-PropertyName:
+BuildingType: type of the building 
 
 TaxParcelIdentificationNumber :  	
 
-CouncilDistrictCode :  	
+CouncilDistrictCode :  Council District Code of the building 
 
-Latitude :  	
+Latitude : latitude of the building
 
-Longitude :  	
+Longitude : longitude of the building
 
-YearBuilt :  	
+YearBuilt : year of construction
 
 NumberofBuildings :  
 
@@ -24,10 +20,10 @@ PropertyGFAParking :
 
 PropertyGFABuilding :  	
 
-ListOfAllPropertyUseTypes :  	
+ListOfAllPropertyUseTypes :  	property use type (e.g. Parking)
 
-LargestPropertyUseType :  	
+LargestPropertyUseType : the largest property use type
 
-ENERGYSTARScore :  	
+ENERGYSTARScore :  green footprint score 
 
-SiteEnergyUse_kBtu :  
+SiteEnergyUse_kBtu :  energy consumed by the building
