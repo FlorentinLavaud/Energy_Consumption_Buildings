@@ -1,6 +1,6 @@
 BuildingType: type of the building 
 
-TaxParcelIdentificationNumber :  	
+TaxParcelIdentificationNumber : Tax code 	
 
 CouncilDistrictCode :  Council District Code of the building 
 
